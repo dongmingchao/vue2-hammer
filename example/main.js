@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import {
   VueHammer
-} from '../index.min'
+} from '../index'
 import App from './App.vue'
 
 //use the plugin
-Vue.use(VueHammer)
+Vue.use(VueHammer);
 
 new Vue({
   el: '#app',
@@ -13,4 +13,4 @@ new Vue({
     event: ''
   },
   render: h => h(App)
-})
+});
